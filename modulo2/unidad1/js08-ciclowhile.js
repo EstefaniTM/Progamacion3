@@ -51,3 +51,15 @@ console.log("ciclo for in");
 for (const key in persona) {
     console.log(key, " : ", persona[key]);
 }
+
+const productos = {
+    nombre: "Laptop",
+    precio: 1500,
+    marca: "HP",
+    description: "Laptop de 15 pulgadas",
+}
+
+for (const key in productos) {
+    console.log(key, " : ", productos[key]);
+}
+// Ejercicio 2: Crear un ciclo for in que imprima las propiedades de un objeto
