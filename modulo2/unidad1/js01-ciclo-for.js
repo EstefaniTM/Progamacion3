@@ -23,3 +23,9 @@ for (let i = 1; i <= 10; i++) {
     console.log("El cuadrado de " + i + " es: " + cuadrado);
 }
 // Ejercicio 2: Crear un ciclo for que imprima los números del 1 al 10 y su cuadrado
+
+let palabras = "Hola";
+for (let i = 0; i < palabras.length; i++) {
+    console.log(palabras[i]);
+}
+
