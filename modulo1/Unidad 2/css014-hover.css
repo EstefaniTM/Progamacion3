@@ -1,0 +1,13 @@
+.boton{
+    background-color: aqua;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.boton:hover{
+    background-color: #FF9800;
+}

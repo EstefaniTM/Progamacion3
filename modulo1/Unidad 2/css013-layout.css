@@ -1,0 +1,36 @@
+.layout {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "aside main"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+header{
+    grid-area: header;
+    background: lightblue;
+}
+
+aside{
+    grid-area: aside;
+    background: lightgreen;
+}
+
+main{
+    grid-area: main;
+    background: lightyellow;
+}
+
+footer{
+    grid-area: footer;
+    background: lightcoral;
+}
+
+.layout>*{
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
