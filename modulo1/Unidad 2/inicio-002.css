@@ -1,0 +1,66 @@
+.contenedor-grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.item-10, .item-90 {
+    padding: 30px 0;
+    border: 1px solid #b9b9b9;
+    background: white;
+}
+
+.item-10 {
+    text-align: left;
+}
+
+.item-90 {
+    text-align: center;
+}
+
+.item-body-menu {
+    height: 95vh;
+}
+
+.item-body-perfil {
+    height: 5vh;
+}
+
+.item-body-chat {
+    height: 60vh;
+    border: 1px solid #b9b9b9;
+    margin: 10px 0;
+}
+
+.item-body-input {
+    height: 30vh;
+    border: 1px solid #b9b9b9;
+}
+
+#chat-input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+p {
+    color: rgb(210, 210, 210);
+} 
