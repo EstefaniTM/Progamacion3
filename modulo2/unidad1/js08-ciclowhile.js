@@ -62,4 +62,18 @@ const productos = {
 for (const key in productos) {
     console.log(key, " : ", productos[key]);
 }
-// Ejercicio 2: Crear un ciclo for in que imprima las propiedades de un objeto
+
+let a = prompt("Ingrese el primer numero: ")
+let b = prompt("Ingrese el segundo numero: ")
+a = Number(a);
+b = Number(b);
+
+if (a > b) {
+    alert("El primer numero es mayor que el segundo");
+} else if (a < b) {
+    alert("El segundo numero es mayor que el primero");
+}
+else {
+    alert("Los numeros son iguales");
+}
+
