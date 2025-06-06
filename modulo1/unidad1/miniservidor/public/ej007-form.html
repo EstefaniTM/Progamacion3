@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="https://www.google.com.ec/?hl=es" method="POST">
+        <table>
+            <tr>
+                <td>
+                    <label for="nombre">nombre</label >
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre ingenioso">
+                </td>
+                <td>
+                    <label for="pais">Pais</label>
+                    <select id="pais" name="nombre">
+                        <option value="Ec">Ecuador</option>
+                        <option value="Co">Colombia</option>
+                        <option value="Pe">Peru</option>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                    <label for="Apellido">Direccion</label >
+                    <textarea id="nombre" name="nombre" placeholder="Direccion" rows="4" cols="20">
+                    av. 10 de agosto
+                    </textarea>
+                </td>
+                <td>
+                    <label for="Nombre">Colores</label>
+                    <select id="colores" name="colores" multiple>
+                        <option value="1">azul</option>
+                        <option value="2">verde</option>
+                        <option value="3">amarillo</option>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                    <label for="navegador">Navegadores</label >
+                    <input type="range" id="a" name="a">
+                </td>
+                <td>
+                    
+                    <label for="nombre">edad</label >
+                    <input type="number" id="a" name="a">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                        <label for="nav">Navegadores</label>
+                </td>
+                <td>
+                    <input list="navegadores" id="nav" name="nav">
+                    <datalist name="navegadores" id="navegadores">
+                            <option value="Chrome"></option>
+                            <option value="Firefox"></option>
+                            <option value="IE Edge"></option>
+                            <option value="Brave"></option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="radio">Sexo</label>
+                    <input type="radio" id="femenino" name="sexo">femenino
+                    <input type="radio" id="femenino" name="sexo">femenino
+                </td>
+                <td>
+                    <label for="checkbox">Sexo</label>
+                    <input type="checkbox" id="Cantar" name="Cantar">Cantar
+                    <input type="checkbox" id="Bailar" name="Bailar">Bailar
+                    <input type="checkbox" id="Cocinar" name="Cocinar">Cocinar
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <button type="submit" value="Buscar">aqui</button>
+                </td>
+                <td>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
