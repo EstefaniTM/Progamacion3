@@ -1,6 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity()
+@Entity('users')
 export class User {
     @PrimaryGeneratedColumn('uuid')
     id: string;
@@ -14,11 +14,9 @@ export class User {
     @Column()
     password: string;
 
-//    @Column()
-//    profile: string;
-
     @Column({ nullable: true })
     profile: string;
 
+    @Column({ default: true }) // <--- Agrega esto
+    isActive: boolean;
 }
-
