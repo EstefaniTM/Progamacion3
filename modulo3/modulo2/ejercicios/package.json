@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "styled-components": "^6.1.19"
-  },
-  "devDependencies": {
-    "@types/styled-components": "^5.1.34",
-    "daisyui": "^5.0.43"
-  }
-}
